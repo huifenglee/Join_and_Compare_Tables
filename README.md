@@ -1,3 +1,3 @@
-# Join_and_Compare_Tables
+# Join and Compare Tables in Python
 
 In this notebook, I use a fictional dataset to demonstrate how to compare different tables of assets. This is also a common data manipulation problem in Audit Analytics projects. Financial institutions normally have different sets of coding system for asset positions: for example, for modelling purpose, they have a coding system applicable for each and every asset position, this is shown as column "M_code" in the table "asset_model in the notebook; for financial reporting purpose, they use a different coding system, this is shown as column "balance_code" in the table "asset_balance" in the notebook. In an audit project, we get the source data from the modelling system and mapping rules between different asset codings, with which we have to verify whether the asset balance published by the commpany is correct. In this notebook, I will show you how to compare differnt tables using mapping rules.
